@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\CorporateClassifieds.Models\CorporateClassifieds.Models.csproj" />
+		<ProjectReference Include="..\CorporateClassifieds.Repository\CorporateClassifieds.Repository.csproj" />
+	</ItemGroup>
+
+</Project>
